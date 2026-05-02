@@ -77,18 +77,19 @@ export default function Hero() {
           </motion.h1>
 
           {/* Role typewriter */}
-          <motion.div {...fadeUp(0.4)} style={{
+         <motion.div {...fadeUp(0.4)} style={{
             display: "flex", alignItems: "center", gap: 12,
             fontFamily: "'Bricolage Grotesque',sans-serif",
-            fontSize: "clamp(1rem,2vw,1.35rem)", color: "var(--text2)",
+            fontSize: "clamp(0.85rem,2vw,1.35rem)", color: "var(--text2)",
             fontWeight: 300, marginBottom: "2.5rem",
+            flexWrap: "wrap", rowGap: 6,
           }}>
-            <span style={{ color: "var(--text)", fontWeight: 500, minWidth: 220 }}>{role}</span>
+            <span style={{ color: "var(--text)", fontWeight: 500, minWidth: 0 }}>{role}</span>
             <span style={{ color: "var(--accent)", opacity: 0.8, animation: "blink 1s step-end infinite" }}>|</span>
             <span style={{ color: "var(--text3)" }}>·</span>
-            <span>Data Scientist</span>
-            <span style={{ color: "var(--text3)" }}>·</span>
             <span>AI Engineer</span>
+            <span style={{ color: "var(--text3)" }}>·</span>
+            <span>ML Researcher</span>
           </motion.div>
 
           {/* Description */}

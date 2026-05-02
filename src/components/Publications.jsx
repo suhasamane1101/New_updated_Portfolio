@@ -8,9 +8,9 @@ function SectionLabel({ num, title }) {
     <motion.div ref={ref} initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6 }}
       style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
-      <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.62rem", color: "var(--accent)", letterSpacing: "0.2em", textTransform: "uppercase" }}>{num}</span>
-      <h2 style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, fontSize: "clamp(2rem,5vw,3.5rem)", color: "var(--text)", letterSpacing: "-0.02em", lineHeight: 1 }}>{title}</h2>
-      <div style={{ flex: 1, height: 1, background: "linear-gradient(to right, var(--border2), transparent)" }} />
+      <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.62rem", color: "var(--accent)", letterSpacing: "0.2em", textTransform: "uppercase", flexShrink: 0 }}>{num}</span>
+      <h2 style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, fontSize: "clamp(1.6rem,5vw,3.5rem)", color: "var(--text)", letterSpacing: "-0.02em", lineHeight: 1, wordBreak: "break-word" }}>{title}</h2>
+      <div style={{ flex: 1, height: 1, background: "linear-gradient(to right, var(--border2), transparent)", flexShrink: 1, minWidth: 0 }} />
     </motion.div>
   );
 }
