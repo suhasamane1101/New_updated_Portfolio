@@ -102,7 +102,7 @@ export default function Contact() {
             <ContactRow label="Email"    value={personal.email}    href={`mailto:${personal.email}`} />
             <ContactRow label="LinkedIn" value={`/in/${personal.linkedin}`} href={personal.linkedinUrl} />
             <ContactRow label="GitHub"   value={`/${personal.github}`}      href={personal.githubUrl} />
-            <ContactRow label="Portfolio" value={personal.portfolio} href={`https://${personal.portfolio}`} />
+            <ContactRow label="Portfolio" value={personal.portfolio} href={personal.portfolioUrl} />
           </motion.div>
         </div>
       </div>

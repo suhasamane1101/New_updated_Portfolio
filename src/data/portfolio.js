@@ -7,6 +7,7 @@ export const personal = {
   location: "Karlsruhe, Germany",
   email: "suhasamane2@gmail.com",
   portfolio: "suhasportfolio.in",
+  portfolioUrl:"https://new-updated-portfolio-amber.vercel.app",
   github: "suhasamane1101",
   githubUrl: "https://github.com/suhasamane1101",
   linkedin: "suhas-amane",
