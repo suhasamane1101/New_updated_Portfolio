@@ -161,23 +161,4 @@ export const languages = [
   { name: "German", level: "Elementary", pct: 25 },
 ];
 
-export const publications = [
-  {
-    id: 1,
-    title: "AI-Based Health Risk Prediction Using Pose Estimation",
-    subtitle: "Deep Learning · Computer Vision",
-    description:
-      "Real-time system to predict obesity, malnourishment, and metabolic risks using MediaPipe-based body measurements.",
-    date: "June 2025",
-    tech: ["Python", "Flask", "TensorFlow", "OpenCV"],
-  },
-  {
-    id: 2,
-    title: "NeuroAI: Mental Health Prediction System",
-    subtitle: "Machine Learning · Web Development",
-    description:
-      "ML-based system for mental health prediction using behavioral and sensor data with real-time WebRTC features.",
-    date: "May 2025",
-    tech: ["Python", "React", "Random Forest", "WebRTC"],
-  },
-];
+;
