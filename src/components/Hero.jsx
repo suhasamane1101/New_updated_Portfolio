@@ -89,7 +89,7 @@ export default function Hero() {
             <span style={{ color: "var(--text3)" }}>·</span>
             <span>AI Engineer</span>
             <span style={{ color: "var(--text3)" }}>·</span>
-            <span>ML Researcher</span>
+            <span>ML Engineer</span>
           </motion.div>
 
           {/* Description */}
